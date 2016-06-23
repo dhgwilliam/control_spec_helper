@@ -1,5 +1,5 @@
 module ControlSpecHelper
   module Version
-    STRING = '0.0.3'.freeze
+    STRING = '0.0.3.pre'.freeze
   end
 end
