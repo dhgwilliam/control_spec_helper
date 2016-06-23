@@ -7,7 +7,7 @@ cd test-control
 cat <<EOF > Gemfile
 source 'https://rubygems.org'
 
-gem 'control_spec_helper', '~> 0.0.3'
+gem 'control_spec_helper', '~> 0.0.3.pre'
 EOF
 git init
 bundle install
