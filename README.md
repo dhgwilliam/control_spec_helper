@@ -1,3 +1,23 @@
+Usage
+-----
+
+```
+mkdir test-control
+cd test-control
+cat <<EOF > Gemfile
+sources 'https://rubygems.org'
+
+gem 'control_spec_helper', '~> 0.0.3'
+EOF
+git init
+bundle install
+bundle exec csh-generate
+```
+
+
+Notes
+----
+
 Note: this is still alpha code. Use at your own risk.
 
 Puppet Control Spec Helper is designed to complement the Puppet Labs Spec Helper, which is
