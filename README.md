@@ -5,7 +5,7 @@ Usage
 mkdir test-control
 cd test-control
 cat <<EOF > Gemfile
-sources 'https://rubygems.org'
+source 'https://rubygems.org'
 
 gem 'control_spec_helper', '~> 0.0.3'
 EOF
